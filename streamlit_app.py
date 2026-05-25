@@ -10,7 +10,8 @@ if not api_key:
 else:
     genai.configure(api_key=api_key)
 
-model = genai.GenerativeModel("gemini-pro")
+# Modelo atualizado (API v1)
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 st.set_page_config(page_title="Agente BlinkClinic", page_icon="🩺")
 
@@ -32,4 +33,3 @@ if st.button("Enviar"):
                 st.error(f"❌ Erro ao contactar o modelo: {e}")
     else:
         st.warning("Por favor escreve uma pergunta.")
-
