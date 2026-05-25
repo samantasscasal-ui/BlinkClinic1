@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2F80ED"/>
+      <stop offset="100%" stop-color="#56CCF2"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#g)"/>
+  <path d="M256 144c-61.8 0-112 50.2-112 112s50.2 112 112 112 112-50.2 112-112-50.2-112-112-112zm0 192c-44.1 0-80-35.9-80-80s35.9-80 80-80 80 35.9 80 80-35.9 80-80 80z" fill="#fff" opacity="0.15"/>
+  <path d="M336 240H272V176a16 16 0 0 0-32 0v64H176a16 16 0 0 0 0 32h64v64a16 16 0 0 0 32 0v-64h64a16 16 0 0 0 0-32z" fill="#fff"/>
+  <circle cx="256" cy="256" r="152" fill="none" stroke="#fff" stroke-width="24" opacity="0.35"/>
+  <text x="256" y="396" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="64" fill="#fff" font-weight="700">Blink</text>
+</svg>
